@@ -1,0 +1,69 @@
+@import './custom';
+
+.choosePlan{
+        .innerChoosePlan{
+                margin-bottom: 50px;
+        }
+        
+        .text{
+                text-align: center;
+                h3{
+                        font-size: 25px;
+                        color: $primary;
+                        font-weight: 700;
+                        font-family: $font1;
+                        background-color: #ffc045;
+                        width: fit-content;
+                        margin: 20px auto;
+                        padding: 10px;
+                }
+                h1{
+                        font-size: 50px;
+                        line-height: 38px;
+                        color: $primary;
+                        font-weight: 400;
+                        font-family:$font2;
+                }
+                p{
+                        
+                        font-size: 17px;
+                        color: $primary;
+                        font-family:$font3 ;
+                        text-align: center;
+                        margin: 20px auto;
+                }
+        }
+        .choosing_item{
+                display: inline-flex;
+                margin-top: 30px;
+                .item{
+                        h2{
+                                font-size: 38px;
+                                color: $primary;
+                                font-weight: 700;
+                                font-family: $font1;
+                                letter-spacing: 2px;
+                        }
+                        p{
+                                width: 367px;
+                                height: 51px;
+                                font-size: 17px;
+                                color: $primary;
+                                font-family: $font3;
+                                text-align: center;
+                        }
+                        button{
+                                width: 195px;
+                                height: 57px;
+                                background-color: #bf2222;
+                                cursor: pointer;
+                                font-size: 17px;
+                                color: #ffffff;
+                                font-weight: 400;
+                                font-family: $font2;
+                                
+                                border: none;
+                        }
+                }
+        }
+}

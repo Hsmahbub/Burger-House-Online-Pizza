@@ -1,0 +1,67 @@
+@import './custom';
+
+.slider{       
+        width: 1294px;
+        height: 492px;
+        filter: drop-shadow(18.656px 30.758px 21.5px rgba(0,0,0,0.17));
+        background-color: #ffffff;
+        position: relative;
+        .mySlides{
+                .innerslides{
+                        display: flex;
+                        width: 100%;
+                        .text{
+                                position: relative;
+                                width: 55%;
+                                h4{
+                                        font-size: 29px;
+                                        letter-spacing: 2px;
+                                        color: #3d3d3d;
+                                        font-weight: 700;
+                                        font-family: $font1;
+                                }
+                                h1{
+                                        font-size: 42px;
+                                        line-height: 46px;
+                                        color: #3d2514;
+                                        font-weight: 400;
+                                        font-family: $font2;
+                                }
+                                p{
+                                        width: 531px;
+                                        height: 173px;
+                                        font-size: 21px;
+                                        line-height: 33px;
+                                        color: #3d3d3d;
+                                        font-weight: 400;
+                                        font-family: $font3;
+                                        margin-top: 50px;
+                                }
+                               
+                        }
+                        .img{
+                                width: 50%;
+
+                        }
+                }
+        }
+        .button{
+                position: absolute;
+                bottom: 20px;
+                z-index: 1;
+                .dot {
+                        height: 15px;
+                        width: 15px;
+                        margin: 0 2px;
+                        border-radius: 50%;
+                        background-color: #bbb;
+                        display: inline-block;
+                        transition: background-color 0.6s ease;
+                      }
+                      .active {
+                        background-color: #FFC034;
+                      }
+        }
+        
+        }
+       

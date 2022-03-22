@@ -1,0 +1,59 @@
+@import './custom';
+
+.gallary{
+        display:flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        .gallary__item1{
+                position: relative;
+                .text{
+                        h2{
+                                font-size: 25px;
+                        }
+                        position: absolute;
+                        top: 20px;
+                        left: 20px;
+                        font-size: 25px;
+                        line-height: 38px;
+                        color: #ffffff;
+                        font-family: $font1;
+                        letter-spacing: 1px;
+                }
+        }
+        .gallary__item2{
+                .item1{
+                        position: relative;
+                        .text{
+                                h2{
+                                        font-size: 25px;
+                                }
+                                position: absolute;
+                                top: 20px;
+                                left: 20px;
+                                font-size: 25px;
+                                line-height: 38px;
+                                color: #ffffff;
+                                font-family: $font1;
+                                letter-spacing: 1px;
+                        }
+                }
+                .item2{
+                        position: relative;
+                        top: 36px;
+                        .text{
+                                h2{
+                                        font-size: 25px;
+                                }
+                                position: absolute;
+                                top: 20px;
+                                left: 20px;
+                                font-size: 25px;
+                                line-height: 38px;
+                                color: #ffffff;
+                                font-family: $font1;
+                                letter-spacing: 1px;
+                        }
+                }
+
+        }
+}

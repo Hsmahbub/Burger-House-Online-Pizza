@@ -1,0 +1,29 @@
+// project font 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat&display=swap');
+$font1:'Bebas Neue', cursive;
+$font2:'Alfa Slab One', cursive;
+$font3:'Montserrat', sans-serif;
+$primary:#3d2514;
+.container{
+        width: 1440px;
+        max-width: 100%;
+        padding: 30px;
+        margin: 0 auto;
+
+}
+.fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }

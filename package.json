@@ -1,0 +1,24 @@
+{
+  "name": "ecomerce",
+  "version": "1.0.0",
+  "description": "this is my first web template",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "psd",
+    "html",
+    "css",
+    "bootstrap",
+    "js"
+  ],
+  "author": "Md Mahbub Alom",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4"
+  }
+}
